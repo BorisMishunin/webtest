@@ -60,7 +60,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = 'webtest.urls'
+ROOT_URLCONF = 'money.urls'
 
 TEMPLATES = [
     {
@@ -78,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'webtest.wsgi.application'
+WSGI_APPLICATION = 'money.wsgi.application'
 
 
 # Database
